@@ -1,0 +1,102 @@
+# ================================
+# Environment / Secrets
+# ================================
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.crt
+*.p12
+*.secrets
+secrets.json
+
+# Anthropic / API keys backups
+anthropic_key.txt
+apikeys.txt
+
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# ================================
+# Build / Packaging
+# ================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+*.out
+*.err
+
+# ================================
+# Testing
+# ================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ================================
+# IDE / Editor
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Docker
+# ================================
+docker-compose.override.yml
+*.tar
+*.gz
+
+# Docker volumes (if local bind mounts)
+pgdata/
+chromadata/
+.chroma/
+*.db
+*.sqlite3
+
+# ================================
+# Vector DB / Embeddings
+# ================================
+chroma/
+chromadb/
+*.chroma
+
+# ================================
+# Local databases
+# ================================
+tickets.db
+*.db
+
+# ================================
+# Misc
+# ================================
+tmp/
+cache/
