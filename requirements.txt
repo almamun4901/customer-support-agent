@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-anthropic
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+sentence-transformers
+chromadb
+sqlalchemy
+pydantic
+pydantic-settings
+python-dotenv
+pytest
+requests

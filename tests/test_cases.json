@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Duplicate charge high urgency",
+    "input": "I was charged twice and I am extremely upset.",
+    "expected_escalate": true
+  },
+  {
+    "name": "Refund policy question",
+    "input": "What is your refund policy?",
+    "expected_escalate": false
+  },
+  {
+    "name": "Shipping delay complaint",
+    "input": "My package hasn't arrived and it's been 10 days.",
+    "expected_escalate": true
+  },
+  {
+    "name": "Password reset issue",
+    "input": "I can't reset my password.",
+    "expected_escalate": false
+  },
+  {
+    "name": "Account locked urgent",
+    "input": "My account is locked and I need access immediately!",
+    "expected_escalate": true
+  },
+  {
+    "name": "General inquiry",
+    "input": "Do you ship internationally?",
+    "expected_escalate": false
+  },
+  {
+    "name": "Refund angry tone",
+    "input": "Your refund system is broken and this is unacceptable.",
+    "expected_escalate": true
+  },
+  {
+    "name": "Billing clarification",
+    "input": "Can you explain this charge on my card?",
+    "expected_escalate": false
+  },
+  {
+    "name": "Technical minor issue",
+    "input": "The website is loading slowly.",
+    "expected_escalate": false
+  },
+  {
+    "name": "High urgency refund",
+    "input": "I need my refund processed today or I will dispute it.",
+    "expected_escalate": true
+  }
+]
